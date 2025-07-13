@@ -15,6 +15,8 @@ const fibonacci = function(num) {
     if (count === 0) {
         return 0;
     }
+
+    // Check the negative number 
     if (count < 0) {
         return 'OOPS';
     }
@@ -35,8 +37,6 @@ const fibonacci = function(num) {
 
     return sequence.at(-1);
 };
-
-//fibonacci(4);
 
 // Do not edit below this line
 module.exports = fibonacci;
